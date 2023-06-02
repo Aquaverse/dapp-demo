@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.container .demo_container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .demo_container .demo_item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;   
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: #ccc;
+} 
+
+.test_aaa {
+    font-size: 20px;
+   /* 要把阴影与大小配合好，一般来说大小都是偏大时采用 */
+   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+   text-transform: uppercase;/* 全开大写 */
+   font-size: 180px;
+   -webkit-text-stroke: 5px #FFE180;
+   color: #8A5E12;
+   text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #FFE180;
+   font-weight: bold;
+   letter-spacing: -4px;
+   /*background: linear-gradient(to bottom, #503506 0%,rgba(138, 94, 18, 0.62) 100%);*/
+}
