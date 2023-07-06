@@ -1,10 +1,7 @@
 import { AirDropItem } from "../types";
 
 export default function Airdrop({ item }: {item: AirDropItem}) {
-    const isNft = false
-    const isCrypto = item.amount || false;
-
-    return <div className="my-2 mx-2 py-2 px-2 relative rounded-xl bg-airdrop-bg bg-cover">
+    return <div className="my-2 mx-2 py-2 px-2 relative rounded-xl bg-airdrop-bg bg-100_100">
         <div className=" absolute left-2 h-[120px] w-[150px] bg-60% bg-airdrop-icon bg-no-repeat"></div>
         <div className="flex justify-between items-center">
             <div>
