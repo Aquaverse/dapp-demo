@@ -1,4 +1,6 @@
-export const airdropList = [
+import { AirDropItem } from "./types"
+
+export const airdropList: AirDropItem[] = [
     {
         "amount": "4",
         "body": "@room The winner's list of the campaign is announced, please check. \n https://share.socialswap.com/drop/detail?orderId=192&squadId=!eeNIILRjGOMNYbejef:hs.sending.me",
@@ -8,6 +10,7 @@ export const airdropList = [
         "msgtype": "m.text",
         "ps": "sdfssdfgh",
         "reward_num": "2",
+        time: '45:16',
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     },
     {
@@ -19,6 +22,7 @@ export const airdropList = [
         "msgtype": "m.text",
         "ps": "sdfgh",
         "reward_num": "1",
+        time: '15:26',
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     }
 ]
@@ -61,12 +65,14 @@ export const messageList = [
         "body": "我怀疑人生了",
         "msgtag": "good",
         "msgtype": "m.text",
+        name: 'Jackbssen',
         "sender": "@0xce1f582e96499e3e38166ee4e54c61fef37c4c3c:hs.sending.me",
     },
     {
-        "body": "ok, 开发第一优先级改这个",
+        "body": "ok, 开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个开发第一优先级改这个",
         "msgtag": "good",
         "msgtype": "m.text",
+        name: 'Martina',
         "sender": "@0x5ee9bf1c6e9891a8777df37f2cfdfba8b48a5413:hs.sending.me",
     },
     {
