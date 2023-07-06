@@ -5,7 +5,7 @@ import A10 from '../../../assets/conference/a10.2fb452b3382522219650.webp'
 const Message = ({ item }: {item: MessageItem}) => {
     return <div className="w-full h-48 border-b-4 border-[#413F4B] flex">
         <div className="relative h-48 w-48 flex flex-col justify-center items-center">
-            <div>{item.name}</div>
+            <div className="text-2xl font-extrabold mb-3">{item.name}</div>
             <div className="w-24 h-24">
                 <img className="w-full h-full" src={A10} alt="" />
             </div>

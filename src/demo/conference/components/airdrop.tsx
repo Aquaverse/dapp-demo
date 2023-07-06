@@ -5,7 +5,7 @@ export default function Airdrop({ item }: any) {
     const isNft = false
     const isCrypto = item.amount || false;
 
-    return <div className="my-2 mx-2 py-2 px-2 rounded-xl overflow-auto border-[1px] border-yellow-500 bg-[url('../../../assets/conference/Rectangle_279.png')] bg-center">
+    return <div className="my-2 mx-2 py-2 px-2 rounded-xl bg-airdrop-bg bg-cover bg-center bg-origin-border">
         <div className="flex justify-between items-center">
             <div>
                 <span className="text-[40px] font-bold">{item.amount}</span>

@@ -6,7 +6,11 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'airdrop-bg': "url('./src/assets/conference/Rectangle_279.png')"
+      }
+    },
     container: {
       center: true,
     }
