@@ -9,7 +9,7 @@ export interface AirDropItem {
     ps: string;
     reward_num: string;
     sender: string;
-    time?: string;
+    time?: number;
 }
 
 

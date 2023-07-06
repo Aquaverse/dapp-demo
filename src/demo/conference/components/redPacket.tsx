@@ -3,6 +3,12 @@ import A10 from '../../../assets/conference/a10.2fb452b3382522219650.webp'
 import Nft from "./Nft";
 import Crypto from "./Crypto";
 
+export const SplitDiv = () => (
+    <div className="w-full flex justify-end">
+        <div className="w-[80%] border-b-4 border-white opacity-20" />
+    </div>
+)
+
 const RedPacket = ({ item }: {item: RedPacketItem}) => {
     return (
         <div className="w-full h-full border-b-4 border-4 border-yellow-500 flex bg-gradient-to-r from-[#7C4902] to-[#C8811E] relative">

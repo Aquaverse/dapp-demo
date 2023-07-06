@@ -10,7 +10,7 @@ export const airdropList: AirDropItem[] = [
         "msgtype": "m.text",
         "ps": "sdfssdfgh",
         "reward_num": "2",
-        time: '45:16',
+        time: 1688647722480,
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     },
     {
@@ -22,7 +22,7 @@ export const airdropList: AirDropItem[] = [
         "msgtype": "m.text",
         "ps": "sdfgh",
         "reward_num": "1",
-        time: '15:26',
+        time: 1688647722480,
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     },
     {
@@ -34,7 +34,7 @@ export const airdropList: AirDropItem[] = [
         "msgtype": "m.text",
         "ps": "sdfgh",
         "reward_num": "1",
-        time: '15:26',
+        time: 1688647722480,
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     },
     {
@@ -46,7 +46,7 @@ export const airdropList: AirDropItem[] = [
         "msgtype": "m.text",
         "ps": "sdfgh",
         "reward_num": "1",
-        time: '15:26',
+        time: 1688647722480,
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     }
 ]

@@ -1,4 +1,5 @@
 import { RedPacketItem } from "../types";
+import { SplitDiv } from "./RedPacket";
 
 export default function Crypto({ item }: {item: RedPacketItem}) {
     const isImg = item?.coin
@@ -19,7 +20,7 @@ export default function Crypto({ item }: {item: RedPacketItem}) {
             }
         </div>
         <div className="text-base font-medium opacity-80 text-right mr-2">Received 3 / 8</div>
-        <div className="w-full border-b-4 border-white opacity-20"></div>
+        <SplitDiv />
         <div></div>
         <div className="flex justify-end h-9">
             {

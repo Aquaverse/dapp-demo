@@ -1,4 +1,5 @@
 import { RedPacketItem } from "../types";
+import { SplitDiv } from "./RedPacket";
 
 export default function Nft({item}: {item: RedPacketItem}) {
     return <div className=" py-2 px-2 flex flex-col justify-around h-full">
@@ -22,9 +23,7 @@ export default function Nft({item}: {item: RedPacketItem}) {
             }
         </div>
         <div className="text-base font-medium opacity-80 text-right mr-2">Received 3 / 8</div>
-        <div className="w-full flex justify-end">
-            <div className="w-[80%] border-b-4 border-white opacity-20" />
-        </div>
+        <SplitDiv />
         <div></div>
         <div className="flex justify-end">
             {
