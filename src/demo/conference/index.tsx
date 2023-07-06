@@ -1,5 +1,5 @@
-import Content from "./content";
-import Header from "./header";
+import Content from "./Content";
+import Header from "./Header";
 
 const config = {
     banner_h5: 'https://d1q7fiu45lygg8.cloudfront.net/bundles/activity/imgData/1686142966888-img-header-Mob-NYC.png',

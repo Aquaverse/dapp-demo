@@ -1,14 +1,13 @@
-import Airdrop from "./components/airdrop";
-import Message from "./components/message";
-import RedPacket from "./components/redPacket";
-import ScanQRCode from './components/scanQRCode';
+import Airdrop from "./components/Airdrop";
+import Message from "./components/Message";
+import RedPacket from "./components/RedPacket";
+import ScanQRCode from './components/ScanQRCode';
 import { airdropList, messageList, redPacketList } from "./data";
 
 const Content = ({ config }: any) => {
-    console.log("🚀 ~ file: content.tsx:6 ~ Content ~ config:", config)
     return <div className="flex flex-1 bg-[black] overflow-hidden">
         <div className="w-[84%] border-r-4 border-[#413F4B] overflow-auto">
-            <div className="h-48 overflow-auto border-4 border-yellow-500">
+            <div className="h-48 overflow-auto">
                 <RedPacket item={redPacketList[1]} />
             </div>
             <div>

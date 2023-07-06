@@ -5,8 +5,8 @@ import Crypto from "./Crypto";
 
 const RedPacket = ({ item }: {item: RedPacketItem}) => {
     return (
-        <div className="w-full h-48 border-b-4 border-[#413F4B] flex bg-yellow-600 relative">
-            <div className="relative h-48 w-48 flex flex-col justify-center items-center">
+        <div className="w-full h-full border-b-4 border-4 border-yellow-500 flex bg-gradient-to-r from-[#7C4902] to-[#C8811E] relative">
+            <div className="relative h-full w-48 flex flex-col justify-center items-center">
                 <div className="text-2xl font-extrabold mb-3">{item.name}</div>
                 <div className="w-24 h-24">
                     <img className="w-full h-full" src={A10} alt="" />
