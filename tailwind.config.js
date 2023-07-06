@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'airdrop-bg': "url('./src/assets/conference/Rectangle_279.png')",
-        'airdrop-icon': "url('./src/assets/conference/img-bg-airdrop.png')"
+        'airdrop-icon': "url('./src/assets/conference/img-bg-airdrop.png')",
+        'money-gun': "url('./src/assets/conference/img-bg-moneygun.png')"
       },
       backgroundSize: {
         '99%': '99%',

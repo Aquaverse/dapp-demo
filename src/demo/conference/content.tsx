@@ -9,7 +9,7 @@ const Content = ({ config }: any) => {
     return <div className="flex flex-1 bg-[black] overflow-hidden">
         <div className="w-[84%] border-r-4 border-[#413F4B] overflow-auto">
             <div className="h-48 overflow-auto border-4 border-yellow-500">
-                <RedPacket item={redPacketList[1]} />
+                <RedPacket item={redPacketList[0]} />
             </div>
             <div>
                 {
@@ -19,7 +19,7 @@ const Content = ({ config }: any) => {
         </div>
         <div className="w-[15.9%] border-solid border-1 border-gray-50
          flex flex-col justify-between">
-            <div>
+            <div className="overflow-auto">
                 {
                     airdropList.map((item, index) => (<Airdrop key={index} item={item} />)) 
                 }

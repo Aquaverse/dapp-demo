@@ -20,6 +20,7 @@ export interface RedPacketItem {
     gift_id: string;
     msgtag: string;
     msgtype: string;
+    name?: string;
     nft_list?: {
         collection_image_url: string;
         collection_name: string;

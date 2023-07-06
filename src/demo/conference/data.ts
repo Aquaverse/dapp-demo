@@ -24,6 +24,30 @@ export const airdropList: AirDropItem[] = [
         "reward_num": "1",
         time: '15:26',
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
+    },
+    {
+        "amount": "3",
+        "body": "@room The winner's list of the campaign is announced, please check. \n https://share.socialswap.com/drop/detail?orderId=191&squadId=!eeNIILRjGOMNYbejef:hs.sending.me",
+        "coin": "RPL",
+        "image_url": "https://assets.coingecko.com/coins/images/2090/large/rocket_pool_%28RPL%29.png?1637662441",
+        "msgtag": "airdrop",
+        "msgtype": "m.text",
+        "ps": "sdfgh",
+        "reward_num": "1",
+        time: '15:26',
+        "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
+    },
+    {
+        "amount": "5",
+        "body": "@room The winner's list of the campaign is announced, please check. \n https://share.socialswap.com/drop/detail?orderId=191&squadId=!eeNIILRjGOMNYbejef:hs.sending.me",
+        "coin": "RPL",
+        "image_url": "https://assets.coingecko.com/coins/images/2090/large/rocket_pool_%28RPL%29.png?1637662441",
+        "msgtag": "airdrop",
+        "msgtype": "m.text",
+        "ps": "sdfgh",
+        "reward_num": "1",
+        time: '15:26',
+        "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     }
 ]
 
@@ -35,6 +59,7 @@ export const redPacketList = [
         "gift_id": "6dfd29ded2a04fd0ac115d2dd0196ade",
         "msgtag": "gift",
         "msgtype": "m.text",
+        name: 'Dick',
         "nft_list": [
             {
                 "collection_image_url": "",
@@ -62,6 +87,7 @@ export const redPacketList = [
         "gift_id": "7124cf81029a4e008405aed6165f1946",
         "msgtag": "gift",
         "msgtype": "m.text",
+        name: 'Dick',
         "ps": "Have a nice day! 6.29-2",
         "sender": "@0x4396b706ec9100b5df50679fc380e71dfa3727d7:hs.sending.me",
     },

@@ -5,7 +5,7 @@ import Crypto from "./Crypto";
 
 const RedPacket = ({ item }: {item: RedPacketItem}) => {
     return (
-        <div className="w-full h-48 border-b-4 border-[#413F4B] flex bg-yellow-600">
+        <div className="w-full h-48 border-b-4 border-[#413F4B] flex bg-yellow-600 relative">
             <div className="relative h-48 w-48 flex flex-col justify-center items-center">
                 <div className="text-2xl font-extrabold mb-3">{item.name}</div>
                 <div className="w-24 h-24">
@@ -30,6 +30,7 @@ const RedPacket = ({ item }: {item: RedPacketItem}) => {
                     }
                 </div>
             </div>
+            <div className="w-[480px] h-[90%] bg-money-gun absolute right-0 bg-center bg-cover bg-no-repeat"></div>
         </div>
     )
 }

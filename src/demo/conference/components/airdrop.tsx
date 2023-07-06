@@ -1,7 +1,6 @@
 import { AirDropItem } from "../types";
 
-export default function Airdrop({ item }: any) {
-    console.log("🚀 ~ file: airdrop.tsx:4 ~ Airdrop ~ item:", item)
+export default function Airdrop({ item }: {item: AirDropItem}) {
     const isNft = false
     const isCrypto = item.amount || false;
 
