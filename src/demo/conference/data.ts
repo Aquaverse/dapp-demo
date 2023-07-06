@@ -35,6 +35,23 @@ export const redPacketList = [
         "gift_id": "6dfd29ded2a04fd0ac115d2dd0196ade",
         "msgtag": "gift",
         "msgtype": "m.text",
+        "nft_list": [
+            {
+                "collection_image_url": "",
+                "collection_name": "",
+                "collection_nft_num": 1
+            },
+            {
+                "collection_image_url": "",
+                "collection_name": "Li Lily",
+                "collection_nft_num": 1
+            },
+            {
+                "collection_image_url": "https://lucky.socialswap.com/image/token/polygon.svg",
+                "collection_name": "lucky",
+                "collection_nft_num": 2 
+            }
+        ],
         "ps": "Have a nice day! 7.3-6",
         "sender": "@0xe6d0dd18c6c3a9af8c2fab57d6e6a38e29d513cc:hs.sending.me",
     },

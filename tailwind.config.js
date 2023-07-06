@@ -8,7 +8,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'airdrop-bg': "url('./src/assets/conference/Rectangle_279.png')"
+        'airdrop-bg': "url('./src/assets/conference/Rectangle_279.png')",
+        'airdrop-icon': "url('./src/assets/conference/img-bg-airdrop.png')"
+      },
+      backgroundSize: {
+        '99%': '99%',
+        '90%': '90%',
+        '80%': '80%',
+        '70%': '70%',
+        '60%': '60%',
+        '50%': '50%'
       }
     },
     container: {
