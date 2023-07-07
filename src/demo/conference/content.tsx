@@ -8,7 +8,7 @@ const Content = ({ config }: any) => {
     return <div className="flex flex-1 bg-[black] overflow-hidden">
         <div className="w-[84%] border-r-4 border-[#413F4B] overflow-auto">
             <div className="h-48 overflow-auto">
-                <RedPacket item={redPacketList[1]} />
+                <RedPacket item={redPacketList[0]} />
             </div>
             <div>
                 {

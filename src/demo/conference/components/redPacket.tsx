@@ -5,7 +5,7 @@ import Crypto from "./Crypto";
 
 export const SplitDiv = () => (
     <div className="w-full flex justify-end">
-        <div className="w-[80%] border-b-4 border-white opacity-20" />
+        <div className="w-[70%] border-b-4 border-white opacity-20" />
     </div>
 )
 
