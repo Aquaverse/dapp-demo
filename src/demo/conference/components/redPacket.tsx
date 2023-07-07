@@ -14,7 +14,7 @@ const RedPacket = ({ item }: {item: RedPacketItem}) => {
         <div className="w-full h-full border-b-4 border-4 border-yellow-500 flex bg-gradient-to-r from-[#7C4902] to-[#C8811E] relative">
             <div className="relative h-full w-48 flex flex-col justify-center items-center">
                 <div className="text-2xl font-extrabold mb-3">{item.name}</div>
-                <div className="w-24 h-24">
+                <div className="w-24 h-24 rounded-lg overflow-hidden">
                     <img className="w-full h-full" src={A10} alt="" />
                 </div>
                 <div className="h-[80%] border-r-2 border-white opacity-20 absolute right-0"></div>

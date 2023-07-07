@@ -7,7 +7,7 @@ const Message = ({ item }: {item: MessageItem}) => {
         <div className="w-full h-48 border-b-4 border-l-4 border-l-transparent border-[#413F4B] flex">
             <div className="relative h-48 w-48 flex flex-col justify-center items-center">
                 <div className="text-2xl font-extrabold mb-3">{item.name}</div>
-                <div className="w-24 h-24">
+                <div className="w-24 h-24 rounded-lg overflow-hidden">
                     <img className="w-full h-full" src={A10} alt="" />
                 </div>
                 <div className="h-[80%] border-r-2 border-white opacity-20 absolute right-0"></div>
